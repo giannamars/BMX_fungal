@@ -1,0 +1,12 @@
+#
+#     Copyright (c) 2013 Battelle Memorial Institute
+#     Licensed under modified BSD License. A copy of this license can be found
+#     in the LICENSE file in the top level directory of this distribution.
+#
+CEXE_headers += bmx_chem.H
+CEXE_headers += bmx_chem_K.H
+CEXE_headers += bmx_cell_interaction.H
+CEXE_headers += bmx_cell_interaction_K.H
+
+CEXE_sources += bmx_chem.cpp
+CEXE_sources += bmx_cell_interaction.cpp

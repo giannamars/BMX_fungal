@@ -1,0 +1,18 @@
+#
+#     Copyright (c) 2013 Battelle Memorial Institute
+#     Licensed under modified BSD License. A copy of this license can be found
+#     in the LICENSE file in the top level directory of this distribution.
+#
+CEXE_headers += bmx_des_K.H
+CEXE_headers += bmx_pc.H
+
+CEXE_sources += bmx_pc.cpp
+CEXE_sources += bmx_pc.cpp
+CEXE_sources += bmx_pc_init.cpp
+CEXE_sources += bmx_pc_interaction.cpp
+CEXE_sources += bmx_pc_write.cpp
+CEXE_sources += bmx_calc_txfr.cpp
+CEXE_sources += bmx_calc_volume_fraction.cpp
+CEXE_sources += bmx_split_particles.cpp
+CEXE_sources += bmx_pc_xchng.cpp
+CEXE_sources += bmx_pc_fusion.cpp

@@ -1,0 +1,10 @@
+#
+#     Copyright (c) 2013 Battelle Memorial Institute
+#     Licensed under modified BSD License. A copy of this license can be found
+#     in the LICENSE file in the top level directory of this distribution.
+#
+CEXE_sources += bmx_io.cpp
+CEXE_sources += bmx_build_info.cpp
+CEXE_sources += bmx_chk.cpp
+CEXE_sources += bmx_plt.cpp
+CEXE_sources += bmx_restart.cpp

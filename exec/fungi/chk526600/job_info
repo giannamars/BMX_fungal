@@ -1,0 +1,42 @@
+===============================================================================
+ BMX Job Information
+===============================================================================
+number of MPI processes: 8
+
+
+===============================================================================
+ Build Information
+===============================================================================
+build date:    2024-07-26 08:56:13.732268
+build machine: Linux deception01.pnl.gov 3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+build dir:     /qfs/people/d3g293/bmx_fungi/gpu_build
+AMReX dir:     ../subprojects/amrex
+
+COMP:          gnu
+COMP version:  9.4.0
+
+C++ compiler:  mpicxx
+C++ flags:     -ccbin=g++ -Xcompiler=' -Werror=return-type -g -O3 -std=c++17  -pthread  -std=c++17' --std=c++17 -Wno-deprecated-gpu-targets -m64 --generate-code arch=compute_70,code=sm_70 -maxrregcount=255 --expt-relaxed-constexpr --expt-extended-lambda --forward-unknown-to-host-compiler -Xcudafe --diag_suppress=esa_on_defaulted_function_ignored -Xcudafe --diag_suppress=implicit_return_from_non_void_function --Werror cross-execution-space-call -lineinfo --ptxas-options=-O3 --ptxas-options=-v --use_fast_math  --Werror ext-lambda-captures-this --display-error-number --diag-error 20092 -x cu -dc  -DAMREX_TINY_PROFILING -DBL_USE_MPI -DAMREX_USE_MPI -DAMREX_USE_CUDA -DAMREX_USE_GPU -DBL_COALESCE_FABS -DAMREX_GPU_MAX_THREADS=256 -DAMREX_USE_GPU_RDC -DBL_SPACEDIM=3 -DAMREX_SPACEDIM=3 -DBL_FORT_USE_UNDERSCORE -DAMREX_FORT_USE_UNDERSCORE -DBL_Linux -DAMREX_Linux -DAMREX_PARTICLES -DNDEBUG -DOMPI_SKIP_MPICXX -DNEW_CHEM -Itmp_build_dir/s/3d.gnu.TPROF.MPI.CUDA.EXE -I. -I../src -I../src/chemistry -I../src/deposition -I../src/des -I../src/diffusion -I../src/interpolation -I../src/io -I../src/leveldata -I../src/mods -I../src/setup -I../src/timestepping -I../src/util -I../subprojects/amrex/Src/Base -I../subprojects/amrex/Src/Base/Parser -I../subprojects/amrex/Src/AmrCore -I../subprojects/amrex/Src/Boundary -I../subprojects/amrex/Src/Particle -I../subprojects/amrex/Src/Base -I../subprojects/amrex/Src/AmrCore -I../subprojects/amrex/Src/Boundary -I../subprojects/amrex/Src/Particle -I../subprojects/amrex/Src/LinearSolvers/MLMG -I../subprojects/amrex/Src/LinearSolvers/MLMG -I../subprojects/amrex/Tools/C_scripts -isystem /share/apps/cuda/11.4/include
+
+Link flags:    -L. -L/qfs/projects/ops/rh7_gpu/gcc/9.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/ -L/share/apps/cuda/11.4/lib64
+Libraries:      -pthread -I/share/apps/openmpi/4.1.4/gcc/9.4.0/lib -L/share/apps/openmpi/4.1.4/gcc/9.4.0/lib -Wl,-rpath -Wl,/share/apps/openmpi/4.1.4/gcc/9.4.0/lib -Wl,--enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lmpi -lcuda -lcurand -lnvToolsExt -lgfortran -lquadmath
+BMX git hash: v0.1-96-g72dcffb-dirty
+AMReX git hash: 23.10-19-g54c337f
+
+
+===============================================================================
+ Grid Information
+===============================================================================
+ level: 0
+   number of boxes = 8
+   maximum zones   = 16 16 8 
+
+ level: 1
+   number of boxes = 8
+   maximum zones   = 32 32 16 
+
+
+
+===============================================================================
+ Inputs File Parameters
+===============================================================================
